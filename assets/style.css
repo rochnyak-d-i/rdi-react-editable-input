@@ -1,0 +1,8 @@
+.rdi-editable-input {
+  cursor: text;
+}
+
+.rdi-editable-input:empty:not(:focus)::before {
+  content: attr(placeholder);
+  color: #bdbdbd;
+}
